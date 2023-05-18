@@ -1,0 +1,31 @@
+body{
+    background-color: #333533;
+    color:#A2D1FA;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    color: #8548EC;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2{
+    color:#EC5AB5;
+    font-family:'Courier New', Courier, monospace;
+}
+img{
+    border-radius: 5%;
+}
+.letter-yellow{
+    color: #FBF5BC;
+    font-weight: 900;
+}
+.letter-red-s{
+    color: #C22C28;
+    text-decoration: underline;
+    font-size: 18px;
+}
+.letter-green-s{
+    color: #6EF6D5;
+    background-color: black;
+    font-weight: 900;
+}
