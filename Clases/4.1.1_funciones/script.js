@@ -1,4 +1,3 @@
-// // Deberas realizar un semáforo utilizando JS.
 // // El semáforo deberá cambiar de luz de Verde a Amarilla y de Amarilla a Roja y luego de nuevo a Verde.
 // // Puedes mostrar la imagen del semáforo cambiando, hacer el cambio con console.log o con alert.
 // // Se debe respetar el orden de los colores:
@@ -6,27 +5,18 @@
 // // De amarillo puede pasar a Rojo.
 // // De Verde pasa a Amarillo.
 
-// Podrías intentar con algo como :
-// 1
-// document.write(“<img src=’http://imagenes.com/luz_verde.png’ >”);
-
-// function imprimeHola() {
-
-//             console.log('Hola'); 
-
-//         }
-
-        
-
-//         function detente(intervalo) {
-
-//             clearInterval(intervalo);
-
-//             console.log('Listo!');
-
-//         }
-
-//                 var intervalo = setInterval(imprimeHola(),1000); 
-
-//         setTimeout(detener(intervalo),5000); 
-//         Puedes usar este proyecto de referencia: https://replit.com/@danyparc/semaforo#index.html.
+function verde() {
+  console.log("Hola");
+  document.write("<img src='img/verde.webp'>");
+  document.write("<img src='img/amarillo.webp'>");
+}
+function detente(intervalo) {
+  document.write("<img src='img/rojo.webp'>");
+  clearInterval(intervalo);
+  console.log("Listo!");
+}
+function ocultar(){
+    
+}
+var intervalo = setInterval(verde(), 10000);
+setTimeout(detente(intervalo), 20000);
