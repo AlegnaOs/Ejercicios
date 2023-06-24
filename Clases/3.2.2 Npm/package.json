@@ -1,0 +1,11 @@
+{
+  "name": "3.2.2-npm",
+  "version": "1.0.0",
+  "description": "Paquete para el proyecto npm",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

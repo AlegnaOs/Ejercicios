@@ -1,12 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Semaforo</title>
+    <title>Perfumes</title>
 </head>
 <body>
+    <main>
+        <h1>Empresa de Perfumes</h1>
+    </main>
+    <section>
+        <form action="">
+            <label for="vendedores-select">Seleccionar el vendedor:</label>
+            <select name="vendedores" id="vendedores-select">
+                <option value="">Por favor seleccione una opcion--</option>
+                <option value="juana">Juana</option>
+                <option value="pedro">Pedro</option>
+            </select><br>
+            <label for="producto-select">Seleccionar el producto:</label>
+            <select name="productos" id="producto-select">
+                <option value="">Por favor seleccione una opcion--</option>
+                <option value="Aqua">Aqua</option>
+                <option value="Emocion">Emoción</option>
+                <option value="Alegria">Alegría</option>
+                <option value="Frescura">Frescura</option>
+            </select><br>
+            <label for="cantidad-select">Ingrese la cantidad de perfumes:</label>
+            <input type="number" class="inp" name="cantidad" id="cantidad-ingreso"><br>
+            <button class="boton" id="comprar">Venta</button>
+            <p id="mensaje"></p>
+            <button class="boton" id="Limpiar">Nueva Venta</button>
+        </form>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="script.js"></script>
 </body>
+
 </html>
